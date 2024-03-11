@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/vars.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>Stydurium | Главная</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div id="headerBox">
+            <header class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <div class="header__logo">
+                            <a class="header__logo-link" href="#">
+                                <img class="d-lg-none" src="./assets/icons/logo-main-mob.svg" alt="logo">
+                                <img class="d-none d-lg-block" src="./assets/icons/logo-main.svg" alt="logo">
+                            </a>
+                        </div>
+                        <nav class="header__menu d-none d-lg-block">
+                            <ul class="menu__list">
+                                <li class="menu__list-item"><a href="./index.html">Главная</a></li>
+                                <li class="menu__list-item"><a href="./courses.html">Курсы</a></li>
+                                <li class="menu__list-item"><a href="#">Контакты</a></li>
+                                <li class="menu__list-item"><a href="#">О нас</a></li>
+                                <li class="menu__list-item"><a href="#">Медиа</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__humb d-block d-lg-none">
+                            <a class="header__humb-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+                                <img src="./assets/icons/menu-hamb.svg" alt="humb">
+                            </a>
+                        </div>
+
+                        <!-- Menu for mobile -->
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenu">
+                            <div class="offcanvas-header custom-off-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <nav class="header__mobile-nav">
+                                    <ul class="mobile-nav-list">
+                                        <li class="mobile-list-item"><a href="#">Главная</a></li>
+                                        <li class="mobile-list-item"><a href="#">Курсы</a></li>
+                                        <li class="mobile-list-item"><a href="#">Контакты</a></li>
+                                        <li class="mobile-list-item"><a href="#">О нас</a></li>
+                                        <li class="mobile-list-item"><a href="#">Медиа</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <main class="main">
+            <!-- banner -->
+            <section class="banner">
+                <div class="container">
+                    <div class="banner__block">
+                        <div class="banner__inner">
+                            <div class="banner-content">
+                                <h2 class="banner-title">Мной движет желание узнать кем я стану, когда вырасту</h2>
+                                <div class="banner-tags">
+                                    <a class="banner-tags-item" href="#">Программирование</a>
+                                    <a class="banner-tags-item" href="#">Веб</a>
+                                    <a class="banner-tags-item" href="#">Дизайн</a>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="banner__image d-none d-xl-block" src="./assets/images/banner/fon.png" alt="фон">
+                    </div>
+                </div>
+            </section>
+            <!-- Courses -->
+            <section class="courses">
+                <div class="container">
+                    <div class="courses__inner">
+                        <div class="courses__headline">
+                            <h2 class="title-main">Наши курсы</h2>
+                            <a class="courser__headline-link" href="">
+                                <img class="d-lg-none" src="./assets/icons/arrow.svg" alt="">
+                                <span class="d-none d-lg-block">Все курсы</span>
+                            </a>
+                        </div>
+                        <div class="courses__cards row">
+                            <div class="card-item col-12 col-sm-6 col-lg-4">
+                                <a class="card-item__box d-block" href="#">
+                                    <div class="card-item__image">
+                                        <div class="card-item__image-box img-box">
+                                            <img class="img" src="./assets/images/courses/photo_1.jpg" alt="">
+                                        </div>
+                                        <div class="card-item__image-play">
+                                            <img src="./assets/icons/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="card-item__content">
+                                        <h4 class="card-item__title">HTML: Start</h4>
+                                        <div class="card-item__desc">
+                                            <span class="age">Age 10-12</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="modules">25 Modules</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="time">24 Hr 40 Mins</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card-item col-12 col-sm-6 col-lg-4">
+                                <a class="card-item__box d-block" href="#">
+                                    <div class="card-item__image">
+                                        <div class="card-item__image-box img-box">
+                                            <img class="img" src="./assets/images/courses/photo_1.jpg" alt="">
+                                        </div>
+                                        <div class="card-item__image-play">
+                                            <img src="./assets/icons/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="card-item__content">
+                                        <h4 class="card-item__title">HTML: Start</h4>
+                                        <div class="card-item__desc">
+                                            <span class="age">Age 10-12</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="modules">25 Modules</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="time">24 Hr 40 Mins</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card-item col-12 col-sm-6 col-lg-4">
+                                <a class="card-item__box d-block" href="#">
+                                    <div class="card-item__image">
+                                        <div class="card-item__image-box img-box">
+                                            <img class="img" src="./assets/images/courses/photo_1.jpg" alt="">
+                                        </div>
+                                        <div class="card-item__image-play">
+                                            <img src="./assets/icons/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="card-item__content">
+                                        <h4 class="card-item__title">HTML: Start</h4>
+                                        <div class="card-item__desc">
+                                            <span class="age">Age 10-12</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="modules">25 Modules</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="time">24 Hr 40 Mins</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- News -->
+            <section class="news">
+                <div class="container">
+                    <div class="news__inner">
+                        <div class="courses__headline">
+                            <h2 class="title-main">Последние новости</h2>
+                            <a class="courser__headline-link" href="#">
+                                <img class="d-lg-none" src="./assets/icons/arrow.svg" alt="">
+                                <span class="d-none d-lg-block">В Studyrium: Media</span>
+                            </a>
+                        </div>
+                        <div class="news__news-cards row">
+                            <div class="news-card-item col-12 col-sm-6 col-lg-4">
+                                <a class="news-card-item__box d-block" href="#">
+                                    <div class="news-card-item__image img-box">
+                                        <img class="img" src="./assets/images/news/news_1.jpg" alt="photo">
+                                    </div>
+                                    <div class="news-card-item__content">
+                                        <span class="news-card-item__date">21.01.2024</span>
+                                        <h4 class="news-card-item__title">ETF на Биткоин</h4>
+                                        <p class="news-card-item__desc">
+                                            Биткоин наконец-то выходил на торги среди обычных инвесторов. 
+                                            Упадет или вырастит самая популярная криптовалюта в мире?...
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="news-card-item col-12 col-sm-6 col-lg-4">
+                                <a class="news-card-item__box d-block" href="#">
+                                    <div class="news-card-item__image img-box">
+                                        <img class="img" src="./assets/images/news/news_1.jpg" alt="photo">
+                                    </div>
+                                    <div class="news-card-item__content">
+                                        <span class="news-card-item__date">21.01.2024</span>
+                                        <h4 class="news-card-item__title">ETF на Биткоин</h4>
+                                        <p class="news-card-item__desc">
+                                            Биткоин наконец-то выходил на торги среди обычных инвесторов. 
+                                            Упадет или вырастит самая популярная криптовалюта в мире?...
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="news-card-item col-12 col-sm-6 col-lg-4">
+                                <a class="news-card-item__box d-block" href="#">
+                                    <div class="news-card-item__image img-box">
+                                        <img class="img" src="./assets/images/news/news_1.jpg" alt="photo">
+                                    </div>
+                                    <div class="news-card-item__content">
+                                        <span class="news-card-item__date">21.01.2024</span>
+                                        <h4 class="news-card-item__title">ETF на Биткоин</h4>
+                                        <p class="news-card-item__desc">
+                                            Биткоин наконец-то выходил на торги среди обычных инвесторов. 
+                                            Упадет или вырастит самая популярная криптовалюта в мире?...
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- feedback -->
+            <section class="feedback">
+                <div class="container">
+                    <div class="feedback__inner d-md-none">
+                        <h2 class="title-main">Остались вопросы? Задай и мы ответим</h2>
+                        <a class="feedback-btn main-btn" href="#" data-bs-toggle="modal" data-bs-target="#feedback-modal">Получить консультацию</a>
+                    </div>
+
+                    <div class="feedback__pc-inner d-none d-md-block">
+                        <div class="feedback__content">
+                            <div class="feedback__content-left">
+                                <h2 class="feedback__content-title">Остались вопросы? Задай и мы ответим</h2>
+                                <p class="feedback__content-desc">
+                                    Если вы хотите больше узнать о Studyrium или не знаете, 
+                                    какую программу обучения выбрать, оставьте заявку — и мы перезвоним
+                                </p>
+                            </div>
+                            <div class="feedback__content-right">
+                                <div class="feedback__content-block">
+                                    <form class="feedback__content-form" action="#">
+                                        <input type="text" class="custom-form form-control" placeholder="Имя">
+                                        <div class="feedback__content-form-group d-flex justify-content-between">
+                                            <input type="tel" class="custom-form form-control" placeholder="+7 (999) 999-99-99">
+                                            <input type="email" class="custom-form form-control" placeholder="Электронная почта">
+                                        </div>
+                                        <button class="btn main-btn">Получить консультацию</button>
+                                    </form>
+                                    <p class="user-agree">
+                                        Нажимая кнопку, принимаю условия <a href="#">политики</a> и
+                                        <a href="#">пользовательского соглашения</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="feedback-modal" tabindex="-1" aria-labelledby="feedback-modal" aria-modal="true" role="dialog">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="feedback-modal-content modal-content">
+                        <div class="feedback-modal-header modal-header">
+                          <h1 class="feedback-modal-title modal-title fs-5" id="exampleModalCenterTitle">Остались вопросы? Задай - и мы ответим</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="feedback-modal-body modal-body">
+                          <p>
+                            Если вы хотите больше узнать о 
+                            Studyrium или не знаете, какую программу 
+                            обучения выбрать, оставьте заявку — и мы перезвоним
+                            </p>
+                            <form class="feedback-modal-form" action="#">
+                                <input type="text" class="custom-form form-control" placeholder="Имя">
+                                <input type="tel" class="custom-form form-control" placeholder="+7 (999) 999-99-99">
+                                <input type="email" class="custom-form form-control" placeholder="Электронная почта">
+                                <button class="btn main-btn">Получить консультацию</button>
+                            </form>
+                            <p class="user-agree">
+                                Нажимая кнопку, принимаю условия <a href="#">политики</a> и
+                                <a href="#">пользовательского соглашения</a>
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__top">
+                        <div class="footer-logo text-center">
+                            <a href="#" class="d-lg-none">
+                                <img src="./assets/icons/logo-footer.svg" alt="logo">
+                            </a>
+                            <a href="#" class="d-none d-lg-block">
+                                <img src="./assets/icons/logo-footer-mob.svg" alt="logo">
+                            </a>
+                        </div>
+                        <nav class="footer-nav row">
+                            <ul class="footer-nav-menu col-6">
+                                <li class="footer-nav-title">Меню</li>
+                                <li class="footer-nav-menu__item"><a href="#">Курсы</a></li>
+                                <li class="footer-nav-menu__item"><a href="#">Контакты</a></li>
+                                <li class="footer-nav-menu__item"><a href="#">О нас</a></li>
+                                <li class="footer-nav-menu__item"><a href="#">Studyrium: Media</a></li>
+                            </ul>
+                            <ul class="footer-nav-net col-6">
+                                <li class="footer-nav-title">Связь</li>
+                                <li class="footer-net-menu__item">
+                                    <a href="#"><img src="./assets/icons/tg.svg" alt="">Telegram</a>
+                                </li>
+                                <li class="footer-net-menu__item">
+                                    <a href="#"><img src="./assets/icons/whatsapp.svg" alt="">WhatsApp</a>
+                                </li>
+                                <li class="footer-net-menu__item">
+                                    <a href="#"><img src="./assets/icons/vk.svg" alt="">VK</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer-author">
+                        <p>© Made by Ilya Sheklanov</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bootstrap 5 -->
+    <script src="./libs/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>

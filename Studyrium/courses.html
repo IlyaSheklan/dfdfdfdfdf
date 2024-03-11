@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/vars.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>Stydurium | Наши курсы</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div id="headerBox">
+            <header class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <div class="header__logo">
+                            <a class="header__logo-link" href="#">
+                                <img class="d-lg-none" src="./assets/icons/logo-main-mob.svg" alt="logo">
+                                <img class="d-none d-lg-block" src="./assets/icons/logo-main.svg" alt="logo">
+                            </a>
+                        </div>
+                        <nav class="header__menu d-none d-lg-block">
+                            <ul class="menu__list">
+                                <li class="menu__list-item"><a href="./index.html">Главная</a></li>
+                                <li class="menu__list-item"><a href="./courses.html">Курсы</a></li>
+                                <li class="menu__list-item"><a href="#">Контакты</a></li>
+                                <li class="menu__list-item"><a href="#">О нас</a></li>
+                                <li class="menu__list-item"><a href="#">Медиа</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__humb d-block d-lg-none">
+                            <a class="header__humb-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+                                <img src="./assets/icons/menu-hamb.svg" alt="humb">
+                            </a>
+                        </div>
+
+                        <!-- Menu for mobile -->
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenu">
+                            <div class="offcanvas-header custom-off-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <nav class="header__mobile-nav">
+                                    <ul class="mobile-nav-list">
+                                        <li class="mobile-list-item"><a href="#">Главная</a></li>
+                                        <li class="mobile-list-item"><a href="#">Курсы</a></li>
+                                        <li class="mobile-list-item"><a href="#">Контакты</a></li>
+                                        <li class="mobile-list-item"><a href="#">О нас</a></li>
+                                        <li class="mobile-list-item"><a href="#">Медиа</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <main class="main">
+            <section class="courses">
+                <div class="container">
+                    <div class="breadcrumb">
+                        <a href="#">Главная</a><img src="./assets/icons/crumb.svg" alt=""><a href="#">Курсы</a>
+                    </div>
+                    <div class="courser__inner">
+                        <div class="courses__headline">
+                            <h2 class="title-main">Наши курсы</h2>
+                        </div>
+                        <div class="courses__filter">
+                            <a class="courses__filter-item" href="#">Все курсы</a>
+                            <a class="courses__filter-item" href="#">Программирование</a>
+                            <a class="courses__filter-item" href="#">Дизайн</a>
+                        </div>
+
+                        <div class="courses__cards row">
+                            <div class="card-item col-12 col-sm-6 col-lg-4">
+                                <a class="card-item__box d-block" href="#">
+                                    <div class="card-item__image">
+                                        <div class="card-item__image-box img-box">
+                                            <img class="img" src="./assets/images/courses/photo_1.jpg" alt="">
+                                        </div>
+                                        <div class="card-item__image-play">
+                                            <img src="./assets/icons/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="card-item__content">
+                                        <h4 class="card-item__title">HTML: Start</h4>
+                                        <div class="card-item__desc">
+                                            <span class="age">Age 10-12</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="modules">25 Modules</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="time">24 Hr 40 Mins</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card-item col-12 col-sm-6 col-lg-4">
+                                <a class="card-item__box d-block" href="#">
+                                    <div class="card-item__image">
+                                        <div class="card-item__image-box img-box">
+                                            <img class="img" src="./assets/images/courses/photo_1.jpg" alt="">
+                                        </div>
+                                        <div class="card-item__image-play">
+                                            <img src="./assets/icons/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="card-item__content">
+                                        <h4 class="card-item__title">HTML: Start</h4>
+                                        <div class="card-item__desc">
+                                            <span class="age">Age 10-12</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="modules">25 Modules</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="time">24 Hr 40 Mins</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card-item col-12 col-sm-6 col-lg-4">
+                                <a class="card-item__box d-block" href="#">
+                                    <div class="card-item__image">
+                                        <div class="card-item__image-box img-box">
+                                            <img class="img" src="./assets/images/courses/photo_1.jpg" alt="">
+                                        </div>
+                                        <div class="card-item__image-play">
+                                            <img src="./assets/icons/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="card-item__content">
+                                        <h4 class="card-item__title">HTML: Start</h4>
+                                        <div class="card-item__desc">
+                                            <span class="age">Age 10-12</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="modules">25 Modules</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="time">24 Hr 40 Mins</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card-item col-12 col-sm-6 col-lg-4">
+                                <a class="card-item__box d-block" href="#">
+                                    <div class="card-item__image">
+                                        <div class="card-item__image-box img-box">
+                                            <img class="img" src="./assets/images/courses/photo_1.jpg" alt="">
+                                        </div>
+                                        <div class="card-item__image-play">
+                                            <img src="./assets/icons/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="card-item__content">
+                                        <h4 class="card-item__title">HTML: Start</h4>
+                                        <div class="card-item__desc">
+                                            <span class="age">Age 10-12</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="modules">25 Modules</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="time">24 Hr 40 Mins</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card-item col-12 col-sm-6 col-lg-4">
+                                <a class="card-item__box d-block" href="#">
+                                    <div class="card-item__image">
+                                        <div class="card-item__image-box img-box">
+                                            <img class="img" src="./assets/images/courses/photo_1.jpg" alt="">
+                                        </div>
+                                        <div class="card-item__image-play">
+                                            <img src="./assets/icons/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="card-item__content">
+                                        <h4 class="card-item__title">HTML: Start</h4>
+                                        <div class="card-item__desc">
+                                            <span class="age">Age 10-12</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="modules">25 Modules</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="time">24 Hr 40 Mins</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card-item col-12 col-sm-6 col-lg-4">
+                                <a class="card-item__box d-block" href="#">
+                                    <div class="card-item__image">
+                                        <div class="card-item__image-box img-box">
+                                            <img class="img" src="./assets/images/courses/photo_1.jpg" alt="">
+                                        </div>
+                                        <div class="card-item__image-play">
+                                            <img src="./assets/icons/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="card-item__content">
+                                        <h4 class="card-item__title">HTML: Start</h4>
+                                        <div class="card-item__desc">
+                                            <span class="age">Age 10-12</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="modules">25 Modules</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="time">24 Hr 40 Mins</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card-item col-12 col-sm-6 col-lg-4">
+                                <a class="card-item__box d-block" href="#">
+                                    <div class="card-item__image">
+                                        <div class="card-item__image-box img-box">
+                                            <img class="img" src="./assets/images/courses/photo_1.jpg" alt="">
+                                        </div>
+                                        <div class="card-item__image-play">
+                                            <img src="./assets/icons/play.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="card-item__content">
+                                        <h4 class="card-item__title">HTML: Start</h4>
+                                        <div class="card-item__desc">
+                                            <span class="age">Age 10-12</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="modules">25 Modules</span>
+                                            <img src="./assets/icons/point.svg" alt="">
+                                            <span class="time">24 Hr 40 Mins</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__top">
+                        <div class="footer-logo">
+                            <a href="#">
+                                <img src="./assets/icons/logo-footer-mob.svg" alt="logo">
+                            </a>
+                        </div>
+                        <nav class="footer-nav row">
+                            <ul class="footer-nav-menu col-6">
+                                <li class="footer-nav-title">Меню</li>
+                                <li class="footer-nav-menu__item"><a href="#">Курсы</a></li>
+                                <li class="footer-nav-menu__item"><a href="#">Контакты</a></li>
+                                <li class="footer-nav-menu__item"><a href="#">О нас</a></li>
+                                <li class="footer-nav-menu__item"><a href="#">Studyrium: Media</a></li>
+                            </ul>
+                            <ul class="footer-nav-net col-6">
+                                <li class="footer-nav-title">Связь</li>
+                                <li class="footer-net-menu__item">
+                                    <a href="#"><img src="./assets/icons/tg.svg" alt="">Telegram</a>
+                                </li>
+                                <li class="footer-net-menu__item">
+                                    <a href="#"><img src="./assets/icons/whatsapp.svg" alt="">WhatsApp</a>
+                                </li>
+                                <li class="footer-net-menu__item">
+                                    <a href="#"><img src="./assets/icons/vk.svg" alt="">VK</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer-author">
+                        <p>© Made by Ilya Sheklanov</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- Bootstrap 5 -->
+    <script src="./libs/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>

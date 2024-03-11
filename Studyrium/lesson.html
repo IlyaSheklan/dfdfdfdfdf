@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/vars.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>Studyrium | Урок 1: Знакомство с HTML</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div id="headerBox">
+            <header class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <div class="header__logo">
+                            <a class="header__logo-link" href="#">
+                                <img class="d-lg-none" src="./assets/icons/logo-main-mob.svg" alt="logo">
+                                <img class="d-none d-lg-block" src="./assets/icons/logo-main.svg" alt="logo">
+                            </a>
+                        </div>
+                        <nav class="header__menu d-none d-lg-block">
+                            <ul class="menu__list">
+                                <li class="menu__list-item"><a href="./index.html">Главная</a></li>
+                                <li class="menu__list-item"><a href="./courses.html">Курсы</a></li>
+                                <li class="menu__list-item"><a href="#">Контакты</a></li>
+                                <li class="menu__list-item"><a href="#">О нас</a></li>
+                                <li class="menu__list-item"><a href="#">Медиа</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__humb d-block d-lg-none">
+                            <a class="header__humb-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+                                <img src="./assets/icons/menu-hamb.svg" alt="humb">
+                            </a>
+                        </div>
+
+                        <!-- Menu for mobile -->
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenu">
+                            <div class="offcanvas-header custom-off-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <nav class="header__mobile-nav">
+                                    <ul class="mobile-nav-list">
+                                        <li class="mobile-list-item"><a href="#">Главная</a></li>
+                                        <li class="mobile-list-item"><a href="#">Курсы</a></li>
+                                        <li class="mobile-list-item"><a href="#">Контакты</a></li>
+                                        <li class="mobile-list-item"><a href="#">О нас</a></li>
+                                        <li class="mobile-list-item"><a href="#">Медиа</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <main class="main">
+            <section class="lesson">
+                <div class="container">
+                    <div class="breadcrumb">
+                        <a href="#">Главная</a><img src="./assets/icons/crumb.svg" alt=""><a href="#">Курсы</a><img src="./assets/icons/crumb.svg" alt=""><a href="#">HTML: Start</a><img src="./assets/icons/crumb.svg" alt=""><a href="#">Урок 1. Знакомство с HTML</a>
+                    </div>
+                    <div class="lesson__inner row">
+                        <div class="lesson__inner-nav d-none d-xl-block col-xl-3">
+                            <p>Содержание курса</p>
+                            <ul class="lesson__inner-nav-list">
+                                <li class="content-modal-body-list-item"><a href="#">Урок 1. Знакомство с HTML</a></li>
+                                <li class="content-modal-body-list-item"><a href="#">Урок 2. Знакомство с HTML</a></li>
+                                <li class="content-modal-body-list-item"><a href="#">Урок 3. Знакомство с HTML</a></li>
+                                <li class="content-modal-body-list-item"><a href="#">Урок 4. Знакомство с HTML</a></li>
+                                <li class="content-modal-body-list-item"><a href="#">Урок 5. Знакомство с HTML</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-9">
+                            <div class="courses__headline">
+                                <h2 class="title-main">Урок 1. Знакомство с HTML</h2>
+                            </div>
+                            <div class="lesson__content-btn d-xl-none">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#content-modal">Содержание курса</a>
+                            </div>
+                            <div class="lesson__content">
+                                <p>
+                                    Идейные соображения высшего порядка, а также сложившаяся 
+                                    структура организации влечет за собой процесс внедрения и 
+                                    модернизации направлений прогрессивного развития. Таким образом 
+                                    консультация с широким активом в значительной степени обуславливает 
+                                    создание форм развития. Разнообразный и богатый опыт реализация 
+                                    намеченных плановых заданий обеспечивает широкому кругу (специалистов) 
+                                    участие в формировании систем массового участия. Товарищи! новая модель 
+                                    организационной деятельности играет важную роль в формировании модели развития.
+                                </p>
+                                <p>
+                                    Идейные соображения высшего порядка, а также сложившаяся 
+                                    структура организации влечет за собой процесс внедрения и 
+                                    модернизации направлений прогрессивного развития. Таким образом 
+                                    консультация с широким активом в значительной степени обуславливает 
+                                    создание форм развития. Разнообразный и богатый опыт реализация 
+                                    намеченных плановых заданий обеспечивает широкому кругу (специалистов) 
+                                    участие в формировании систем массового участия. Товарищи! новая модель 
+                                    организационной деятельности играет важную роль в формировании модели развития.
+                                </p>
+
+                                <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="QWPbdNY" data-user="TheMOZZARELLA" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                    <span>See the Pen <a href="https://codepen.io/TheMOZZARELLA/pen/QWPbdNY">
+                                    Hi-Tech Notification Button</a> by MOZZARELLA (<a href="https://codepen.io/TheMOZZARELLA">@TheMOZZARELLA</a>)
+                                    on <a href="https://codepen.io">CodePen</a>.</span>
+                                </p>
+                                
+                                <p>
+                                    Идейные соображения высшего порядка, а также сложившаяся 
+                                    структура организации влечет за собой процесс внедрения и 
+                                    модернизации направлений прогрессивного развития. Таким образом 
+                                    консультация с широким активом в значительной степени обуславливает 
+                                    создание форм развития. Разнообразный и богатый опыт реализация 
+                                    намеченных плановых заданий обеспечивает широкому кругу (специалистов) 
+                                    участие в формировании систем массового участия. Товарищи! новая модель 
+                                    организационной деятельности играет важную роль в формировании модели развития.
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                    <div class="lesson__control">
+                        <a class="control-btn" href="#">
+                            <img src="./assets/icons/arrow-left.svg" alt="">
+                        </a>
+                        <a class="control-btn-back" href="#">
+                            Содержание
+                        </a>
+                        <a class="control-btn" href="#">
+                            <img src="./assets/icons/arrow-right.svg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="modal fade" id="content-modal" tabindex="-1" aria-labelledby="content-modal" aria-modal="true" role="dialog">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="feedback-modal-content modal-content">
+                            <div class="feedback-modal-header modal-header">
+                              <h1 class="feedback-modal-title modal-title fs-5" id="exampleModalCenterTitle">Содержание курса</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="content-modal-body modal-body">
+                              <ul class="content-modal-body-list">
+                                <li class="content-modal-body-list-item"><a href="#">Урок 1. Знакомство с HTML</a></li>
+                                <li class="content-modal-body-list-item"><a href="#">Урок 2. Знакомство с HTML</a></li>
+                                <li class="content-modal-body-list-item"><a href="#">Урок 3. Знакомство с HTML</a></li>
+                                <li class="content-modal-body-list-item"><a href="#">Урок 4. Знакомство с HTML</a></li>
+                                <li class="content-modal-body-list-item"><a href="#">Урок 5. Знакомство с HTML</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__top">
+                        <div class="footer-logo">
+                            <a href="#">
+                                <img src="./assets/icons/logo-footer-mob.svg" alt="logo">
+                            </a>
+                        </div>
+                        <nav class="footer-nav row">
+                            <ul class="footer-nav-menu col-6">
+                                <li class="footer-nav-title">Меню</li>
+                                <li class="footer-nav-menu__item"><a href="#">Курсы</a></li>
+                                <li class="footer-nav-menu__item"><a href="#">Контакты</a></li>
+                                <li class="footer-nav-menu__item"><a href="#">О нас</a></li>
+                                <li class="footer-nav-menu__item"><a href="#">Studyrium: Media</a></li>
+                            </ul>
+                            <ul class="footer-nav-net col-6">
+                                <li class="footer-nav-title">Связь</li>
+                                <li class="footer-net-menu__item">
+                                    <a href="#"><img src="./assets/icons/tg.svg" alt="">Telegram</a>
+                                </li>
+                                <li class="footer-net-menu__item">
+                                    <a href="#"><img src="./assets/icons/whatsapp.svg" alt="">WhatsApp</a>
+                                </li>
+                                <li class="footer-net-menu__item">
+                                    <a href="#"><img src="./assets/icons/vk.svg" alt="">VK</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer-author">
+                        <p>© Made by Ilya Sheklanov</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bootstrap 5 -->
+    <script src="./libs/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/vars.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>Stydurium | Контакты</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="headerBox">
+            <header class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <div class="header__logo">
+                            <a class="header__logo-link" href="#">
+                                <img class="d-lg-none" src="./assets/icons/logo-main-mob.svg" alt="logo">
+                                <img class="d-none d-lg-block" src="./assets/icons/logo-main.svg" alt="logo">
+                            </a>
+                        </div>
+                        <nav class="header__menu d-none d-lg-block">
+                            <ul class="menu__list">
+                                <li class="menu__list-item"><a href="./index.html">Главная</a></li>
+                                <li class="menu__list-item"><a href="./courses.html">Курсы</a></li>
+                                <li class="menu__list-item"><a href="#">Контакты</a></li>
+                                <li class="menu__list-item"><a href="#">О нас</a></li>
+                                <li class="menu__list-item"><a href="#">Медиа</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__humb d-block d-lg-none">
+                            <a class="header__humb-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+                                <img src="./assets/icons/menu-hamb.svg" alt="humb">
+                            </a>
+                        </div>
+
+                        <!-- Menu for mobile -->
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenu">
+                            <div class="offcanvas-header custom-off-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <nav class="header__mobile-nav">
+                                    <ul class="mobile-nav-list">
+                                        <li class="mobile-list-item"><a href="#">Главная</a></li>
+                                        <li class="mobile-list-item"><a href="#">Курсы</a></li>
+                                        <li class="mobile-list-item"><a href="#">Контакты</a></li>
+                                        <li class="mobile-list-item"><a href="#">О нас</a></li>
+                                        <li class="mobile-list-item"><a href="#">Медиа</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <main class="main">
+          <section class="contacts">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="#">Главная</a><img src="./assets/icons/crumb.svg" alt=""><a href="#">Контакты</a>
+                </div>
+                <div class="contacts__inner">
+                    <div class="courses__headline">
+                        <h2 class="title-main">Контакты</h2>
+                    </div>
+                    <div class="contacts__list row">
+                        <div class="contacts__list-item col-12 col-md-6 col-lg-3">
+                            <a class="contacts__list-item-link" href="#">@studyrium_school</a>
+                            <span>Telegram</span>
+                        </div>
+                        <div class="contacts__list-item col-12 col-md-6 col-lg-3">
+                            <a class="contacts__list-item-link" href="#">studyrium@gmail.com</a>
+                            <span>Электронная почта</span>
+                        </div>
+                        <div class="contacts__list-item col-12 col-md-6 col-lg-3">
+                            <a class="contacts__list-item-link" href="#">+7-999-999-99-99</a>
+                            <span>WhatsApp</span>
+                        </div>
+                        <div class="contacts__list-item col-12 col-md-6 col-lg-3">
+                            <a class="contacts__list-item-link" href="#">+7-999-999-99-99</a>
+                            <span>Телефон</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__top">
+                        <div class="footer-logo text-center">
+                            <a href="#" class="d-lg-none">
+                                <img src="./assets/icons/logo-footer.svg" alt="logo">
+                            </a>
+                            <a href="#" class="d-none d-lg-block">
+                                <img src="./assets/icons/logo-footer-mob.svg" alt="logo">
+                            </a>
+                        </div>
+                        <nav class="footer-nav row">
+                            <ul class="footer-nav-menu col-6">
+                                <li class="footer-nav-title">Меню</li>
+                                <li class="footer-nav-menu__item"><a href="#">Курсы</a></li>
+                                <li class="footer-nav-menu__item"><a href="#">Контакты</a></li>
+                                <li class="footer-nav-menu__item"><a href="#">О нас</a></li>
+                                <li class="footer-nav-menu__item"><a href="#">Studyrium: Media</a></li>
+                            </ul>
+                            <ul class="footer-nav-net col-6">
+                                <li class="footer-nav-title">Связь</li>
+                                <li class="footer-net-menu__item">
+                                    <a href="#"><img src="./assets/icons/tg.svg" alt="">Telegram</a>
+                                </li>
+                                <li class="footer-net-menu__item">
+                                    <a href="#"><img src="./assets/icons/whatsapp.svg" alt="">WhatsApp</a>
+                                </li>
+                                <li class="footer-net-menu__item">
+                                    <a href="#"><img src="./assets/icons/vk.svg" alt="">VK</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer-author">
+                        <p>© Made by Ilya Sheklanov</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bootstrap 5 -->
+    <script src="./libs/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
